@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "19 18 * * *"
+    - cron: "17 2 * * *"
 jobs:
   autosend:
     runs-on: ubuntu-latest
